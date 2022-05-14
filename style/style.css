@@ -20,10 +20,44 @@ a{
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
+    padding: 25px 250px;
 }
 
-.headerWrapper{
-    padding: 25px 250px;
+.mainContentWrapper img{
+    width: 500px;
+}
+
+.mainContentWrapper{
+    align-items: flex-start;
+}
+
+.sideTextWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+}
+
+.mainContentWrapper .title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+
+}
+
+.mainContentWrapper .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.mainContentWrapper button{
+    padding: 5px 30px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6; 
+    border-radius: 5px;
+    width: 120px;
+    flex: 1;
 }
 
 .logo{
