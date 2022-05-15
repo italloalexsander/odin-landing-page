@@ -108,5 +108,28 @@ a{
     padding: 50px 150px;
 }
 
+.quoteWrapper{
+    background-color: #E5E7EB;
+    padding: 100px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+
+}
 
 
+.author{
+    text-align: right;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 18px; 
+}
