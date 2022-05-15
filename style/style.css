@@ -115,7 +115,12 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+}
+
+.innerWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .quote{
@@ -123,12 +128,13 @@ a{
     font-weight: lighter;
     color: #1f2937;
     font-style: italic;
+    align-self: center;
 
 }
 
 
 .author{
-    text-align: right;
+    align-self: flex-end;
     font-weight: bold;
     color: #1f2937;
     font-size: 18px; 
